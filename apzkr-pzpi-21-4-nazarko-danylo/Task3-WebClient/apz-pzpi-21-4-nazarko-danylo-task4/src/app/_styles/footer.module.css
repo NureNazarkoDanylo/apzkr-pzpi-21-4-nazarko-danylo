@@ -1,0 +1,22 @@
+.footer {
+  min-height: 50px;
+  border-top: 1px solid #DEDEDE;
+  padding: 0 24px;
+  line-height: 50px;
+}
+
+.centerSection {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.itemContainer {
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 0 4px;
+}
+
+.itemContainer:hover {
+  background-color: #DEDEDE;
+}

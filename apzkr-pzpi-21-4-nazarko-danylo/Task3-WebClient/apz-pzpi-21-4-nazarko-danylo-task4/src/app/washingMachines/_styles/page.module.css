@@ -1,0 +1,15 @@
+.wrapper {
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 32px 0 32px;
+  min-width: 384px;
+  max-width: 768px;
+}
+
+.cards {
+  display: block;
+}

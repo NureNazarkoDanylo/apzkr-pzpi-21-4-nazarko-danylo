@@ -1,0 +1,14 @@
+.card {
+  width: inherit;
+  height: 64px;
+  display: block flex;
+  justify-content: space-between;
+}
+
+.leftSection {
+  display: inline-block;
+}
+
+.rightSection {
+  display: inline-block;
+}

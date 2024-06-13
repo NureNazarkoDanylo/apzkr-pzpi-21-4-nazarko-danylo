@@ -1,0 +1,56 @@
+.formContainer {
+  background-color: #F7F7F7;
+  border: 1px solid #DEDEDE;
+  border-radius: 8px;
+}
+
+.formHeader {
+  text-align: center;
+  padding: 16px;
+}
+
+.form {
+  background-color: white;
+  border-radius: 0 0 16px 16px;
+  border-top: 1px solid #DEDEDE;
+}
+
+.inputContainer {
+  /* background-color: red; */
+  text-align: center;
+  padding: 16px 16px 0 16px;
+  min-width: 256px;
+  /* max-width: 512px; */
+  margin: auto;
+}
+
+.input {
+  background-color: #FAFAFA;
+  width: 100%;
+  border: 1px solid #DEDEDE;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.buttonContainer {
+  /* background-color: orange; */
+  /* text-align: center; */
+  padding: 16px;
+}
+
+.button {
+  background-color: #4183C4;
+  color: white;
+  border: 1px solid #418FFF;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.resetPasswordLink {
+  margin-left: 8px;
+}
+
+/* .formFooter { */
+/*   text-align: center; */
+/*   padding: 16px; */
+/* } */
