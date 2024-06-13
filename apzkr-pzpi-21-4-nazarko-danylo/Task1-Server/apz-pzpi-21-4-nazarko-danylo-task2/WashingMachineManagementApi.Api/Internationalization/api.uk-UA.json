@@ -1,0 +1,61 @@
+{
+
+  "Comment": "Presentation Layer",
+
+  "ExceptionHandling": {
+    "ValidationException": {
+      "Title": "Сталася одна або кілька помилок перевірки.",
+      "Detail": "Надані дані не відповідають вимогам форматування."
+    },
+    "RegistrationException": {
+      "Title": "Помилка реєстрації.",
+      "Detail": "Перевірте дані свого облікового запису."
+    },
+    "LoginException": {
+      "Title": "Помилка авторизації.",
+      "Detail": "Надані адреса електронної пошти та/або пароль недійсні."
+    },
+    "RenewAccessTokenException": {
+      "Title": "Не вдалося поновити токен доступу.",
+      "Detail": "Перевірте дійсність токена оновлення."
+    },
+    "RevokeRefreshTokenException": {
+      "Title": "Не вдалося відкликати токен оновлення.",
+      "Detail": "Перевірте дійсність токена оновлення."
+    },
+    "NotFoundException": {
+      "Title": "Один або кілька ресурсів не знайдено.",
+      "Detail": "Перевірте правильність введених даних."
+    },
+    "UnAuthorizedException": {
+      "Title": "Неавтентифікований доступ заблоковано.",
+      "Detail": "У запиті відсутні дійсні облікові дані автентифікації для цільового ресурсу."
+    },
+    "ForbiddenException": {
+      "Title": "Несанкціонований доступ заблоковано.",
+      "Detail": "Сервер відмовляється виконувати запит."
+    },
+    "UnhandledException": {
+      "Title": "Сталася одна або кілька внутрішніх помилок сервера.",
+      "Detail": "Повідомте про цю помилку в службу підтримки."
+    }
+  },
+
+  "Comment": "Application Layer",
+  "Comment": "TODO: Move this to appropriate project",
+
+  "AuthorizationRequirements": {
+    "MustBeInRolesWhenInteractingWithUnOwnedEntityRequirement": "Ви маєте бути власником ресурсу або знаходитись в одній з настуних ролей: {0}.",
+    "MustBeInRolesRequirement": "Ви маєте знаходитись в одній з наступних ролей: {0}."
+  },
+
+  "RequestValidation": {
+    "Generic": {
+      "NotNull": "Поле '{0}' має бути присутнім.",
+      "NotEmpty": "Поле '{0}' має бути заповненим.",
+      "Length": "Довжина поля '{0}' має бути між {1} та {2}",
+      "GreaterThanOrEqualTo": "Довжина поля '{0}' має бути більша за або дорівнювати {1}",
+      "LessThanOrEqualTo": "Довжина поля '{0}' має бути менша за або дорівнювати {1}"
+    }
+  }
+}

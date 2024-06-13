@@ -1,0 +1,46 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WashingMachineManagementApi.Api", "WashingMachineManagementApi.Api\WashingMachineManagementApi.Api.csproj", "{30DB976E-DDA0-40BD-8074-76860FE40F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WashingMachineManagementApi.Application", "WashingMachineManagementApi.Application\WashingMachineManagementApi.Application.csproj", "{9C1172CD-F950-4B60-9AC7-E22CF70F96D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WashingMachineManagementApi.Domain", "WashingMachineManagementApi.Domain\WashingMachineManagementApi.Domain.csproj", "{867199F8-161D-465E-B7D2-8FDD71C37472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WashingMachineManagementApi.Persistence", "WashingMachineManagementApi.Persistence\WashingMachineManagementApi.Persistence.csproj", "{C571B8DD-07E2-45D5-9BBD-3BBB0AFAF356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WashingMachineManagementApi.Infrastructure", "WashingMachineManagementApi.Infrastructure\WashingMachineManagementApi.Infrastructure.csproj", "{7B6DE30C-1AE8-41FF-99D7-CF268D2F8330}"
+EndProject
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30DB976E-DDA0-40BD-8074-76860FE40F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DB976E-DDA0-40BD-8074-76860FE40F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DB976E-DDA0-40BD-8074-76860FE40F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DB976E-DDA0-40BD-8074-76860FE40F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1172CD-F950-4B60-9AC7-E22CF70F96D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1172CD-F950-4B60-9AC7-E22CF70F96D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1172CD-F950-4B60-9AC7-E22CF70F96D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1172CD-F950-4B60-9AC7-E22CF70F96D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{867199F8-161D-465E-B7D2-8FDD71C37472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867199F8-161D-465E-B7D2-8FDD71C37472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867199F8-161D-465E-B7D2-8FDD71C37472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867199F8-161D-465E-B7D2-8FDD71C37472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C571B8DD-07E2-45D5-9BBD-3BBB0AFAF356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C571B8DD-07E2-45D5-9BBD-3BBB0AFAF356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C571B8DD-07E2-45D5-9BBD-3BBB0AFAF356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C571B8DD-07E2-45D5-9BBD-3BBB0AFAF356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6DE30C-1AE8-41FF-99D7-CF268D2F8330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6DE30C-1AE8-41FF-99D7-CF268D2F8330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6DE30C-1AE8-41FF-99D7-CF268D2F8330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6DE30C-1AE8-41FF-99D7-CF268D2F8330}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "RequestValidation": {
+    "Generic": {
+      "NotNull": "Field {0} must not be null."
+    }
+  },
+  "AuthorizationRequirements": {
+    "MustBeInRolesWhenInteractingWithUnOwnedEntityRequirement": "You must be the resouce owner or be in one of the following roles: ",
+    "MustBeInRolesRequirement": "You must be in one of the following roles: "
+  }
+}

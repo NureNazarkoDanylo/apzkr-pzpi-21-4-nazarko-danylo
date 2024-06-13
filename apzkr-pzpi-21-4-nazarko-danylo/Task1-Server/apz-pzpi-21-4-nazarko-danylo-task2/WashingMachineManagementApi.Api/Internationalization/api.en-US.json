@@ -1,0 +1,61 @@
+{
+
+  "Comment": "Presentation Layer",
+
+  "ExceptionHandling": {
+    "ValidationException": {
+      "Title": "One or more validation errors occurred.",
+      "Detail": "Provided data doesn't satisfy validation requirements."
+    },
+    "RegistrationException": {
+      "Title": "Registration failed.",
+      "Detail": "Check your credentials."
+    },
+    "LoginException": {
+      "Title": "Login failed.",
+      "Detail": "Provided email and/or password are invalid."
+    },
+    "RenewAccessTokenException": {
+      "Title": "Access token renewal failed.",
+      "Detail": "Check validity of your refresh token."
+    },
+    "RevokeRefreshTokenException": {
+      "Title": "Refresh token revocation failed.",
+      "Detail": "Check validity of your refresh token."
+    },
+    "NotFoundException": {
+      "Title": "One or more resources was not found.",
+      "Detail": "Check validity of input data."
+    },
+    "UnAuthorizedException": {
+      "Title": "Unauthenticated access prevented.",
+      "Detail": "Request lacks valid authentication credentials for the target resource."
+    },
+    "ForbiddenException": {
+      "Title": "Unauthorized access prevented.",
+      "Detail": "Server refuses to fulfill the request."
+    },
+    "UnhandledException": {
+      "Title": "One or more internal server errors occurred.",
+      "Detail": "Report this error to service's support team."
+    }
+  },
+
+  "Comment": "Application Layer",
+  "Comment": "TODO: Move this to appropriate project",
+
+  "AuthorizationRequirements": {
+    "MustBeInRolesWhenInteractingWithUnOwnedEntityRequirement": "You must be the resouce owner or be in one of the following roles: {0}.",
+    "MustBeInRolesRequirement": "You must be in one of the following roles: {0}."
+  },
+
+  "RequestValidation": {
+    "Generic": {
+      "NotNull": "Field '{0}' must not be null.",
+      "NotEmpty": "Field '{0}' must not be empty.",
+      "Length": "Length of field '{0}' must be between {1} and {2}",
+      "GreaterThanOrEqualTo": "Length of field '{0}' must be greater than or equal to {1}",
+      "LessThanOrEqualTo": "Length of field '{0}' must be less than or equal to {1}"
+    }
+  }
+}

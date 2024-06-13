@@ -1,0 +1,8 @@
+{
+  "RequestValidation": {
+    "EntityName": {
+      "EntityProperty": "повідомлення"
+    }
+  }
+}
+
